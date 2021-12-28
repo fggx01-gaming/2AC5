@@ -1,0 +1,156 @@
+.img1 {
+    position: absolute;
+    left: 25%;
+    transform: none;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px #bbb;
+
+}
+.img2 {
+    left: 45%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px #bbb;
+}
+.img3 {
+    position: absolute;
+    left: 75%;
+    transform: none;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px #bbb;
+}
+.img4 {
+    position: absolute;
+    left: 51%;
+    transform: none;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px #bbb;
+}
+.img5 {
+    position: absolute;
+    left: 34.5%;
+    transform: none;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px #bbb;
+}
+.img6 {
+    position: absolute;
+    left: 17.5%;
+    transform: none;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px #bbb;
+
+}
+.img7 {
+    left: 45%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px #bbb;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+}
+
+
+*{
+    margin: 0;
+}
+
+.bloc {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bloc video {
+
+    position: absolute;
+    min-width: 10%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+.text-align{
+    font-family: 'Satisfy', cursive;
+    size: 10px;
+    color: #fff900;
+    text-align: left;   
+}
+
+ul {
+
+    position: absolute;
+    left: 45%;
+    transform: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+
+    list-style: none; 
+    color: #484848;
+    font-family: Arial;
+    font-size: 45px;
+    letter-spacing: 15px;
+    animation: flash 1.4s linear infinite;
+}
+
+@keyframes flash {
+    0% {
+        color: #484848;
+        text-shadow: none;
+    }    
+    90% {
+        color: #484848;
+        text-shadow: none;
+    }
+    100% {
+          color: #fff900;        
+          text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00 ;
+    }
+}
+
+ul li:nth-child(1){
+    animation-delay: .1s;
+}
+ul li:nth-child(2){
+    animation-delay: .2s;
+}
+ul li:nth-child(3){
+    animation-delay: .3s;
+}
+ul li:nth-child(4){
+    animation-delay: .4s;
+}
+
+
